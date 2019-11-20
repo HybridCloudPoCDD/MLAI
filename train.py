@@ -6,7 +6,7 @@ from tensorflow.python.keras.optimizers import Adam
 from tensorflow.python.keras.preprocessing.image import ImageDataGenerator
 
 
-DATASET_PATH  = './data/'
+DATASET_PATH  = '/opt/worload/data'
 IMAGE_SIZE    = (224, 224)
 NUM_CLASSES   = 2
 BATCH_SIZE    = 8  # try reducing batch size or freeze more layers if your GPU runs out of memory
